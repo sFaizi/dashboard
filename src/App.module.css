@@ -1,0 +1,5 @@
+.app {
+  display: grid;
+  grid-template-columns: 0.3fr 10fr;
+  grid-template-rows: min-content 1fr;
+}

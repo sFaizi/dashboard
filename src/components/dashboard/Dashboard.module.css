@@ -1,0 +1,85 @@
+.dashboard {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.studentBoard,
+.purchased {
+  background-color: #fff;
+  padding: 50px 40px;
+  margin: 20px;
+  border-radius: 6px;
+}
+
+.studentBoard span,
+.purchased span {
+  font-size: 40px;
+  vertical-align: bottom;
+}
+
+.studentBoard p,
+.purchased p {
+  display: inline-block;
+  width: max-content;
+  font-size: 22px;
+}
+
+.studentBoardGal,
+.purchaseSection {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed lightgrey;
+  padding-top: 15px;
+}
+
+.studentBoardGalBox,
+.purchasedCourses {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 6px;
+  padding: 18px;
+  width: 500px;
+}
+.studentBoardGalBox p,
+.purchasedCourses p {
+  font-size: 17px;
+}
+.studentBoardGalBox span,
+.purchasedCourses span {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  place-self: center end;
+  font-size: 80px;
+}
+
+.studentBoardGalBox h2,
+.purchasedCourses h2 {
+  place-self: end start;
+}
+
+.studentBoardGalBox p,
+.purchasedCourses p {
+  place-self: start;
+}
+
+.primeBooks {
+  background-color: #e1f7ec;
+}
+.primeBooks span {
+  color: #0bca6b;
+}
+.courses {
+  background-color: #f7ebdc;
+}
+.courses span {
+  color: #fa9a24;
+}
+.eBooks {
+  background-color: #e7e4fa;
+}
+.eBooks span {
+  color: #2f0fff;
+}

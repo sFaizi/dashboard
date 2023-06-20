@@ -1,0 +1,106 @@
+.sidebarLabels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100vh;
+  transition: all 0.6s;
+
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: min-content min-content;
+  background-color: #1c1c1c;
+}
+
+.sidebarTransform {
+  left: -263px;
+}
+
+.sidebarLabels img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 75%;
+  height: 75%;
+  margin: 6px;
+}
+
+.sidebarLabels button {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  margin: 5px 10px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+
+  &::after,
+  &::before {
+    transition: all 0.6s ease-out;
+    content: '';
+    display: block;
+    background-color: black;
+    position: absolute;
+  }
+}
+
+.sidebarBtnSlide {
+  &::after,
+  &::before {
+    width: 20px;
+    height: 2px;
+  }
+  &::after {
+    top: 16px;
+    left: 7px;
+    transform: rotate(135deg);
+  }
+  &::before {
+    top: 16px;
+    left: 7px;
+    transform: rotate(-135deg);
+  }
+}
+
+.sidebarBtnclose {
+  &::after,
+  &::before {
+    width: 13px;
+    height: 2px;
+  }
+
+  &::after {
+    bottom: 12px;
+    left: 12px;
+    transform: rotate(135deg);
+  }
+  &::before {
+    top: 12px;
+    left: 11px;
+    transform: rotate(-135deg);
+  }
+}
+
+.sidebarLabelsList {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  list-style: none;
+}
+
+.sidebarLabelsList li {
+  color: #fff5ea;
+  border-bottom: 1px solid black;
+  padding: 10px 15px;
+  &:hover {
+    color: #40a944;
+    cursor: pointer;
+    border-left: 5px solid #40a944;
+  }
+}
+
+.sidebarLabelsList li span {
+  vertical-align: bottom;
+  margin-right: 15px;
+}

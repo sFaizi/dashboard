@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500;600;800&family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,300;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 48;
+}
