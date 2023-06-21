@@ -89,18 +89,17 @@
   list-style: none;
 }
 
-.sidebarLabelsList li {
+.sidebarLabelsList_li {
   color: #fff5ea;
   border-bottom: 1px solid black;
   padding: 10px 15px;
   &:hover {
     color: #40a944;
     cursor: pointer;
-    border-left: 5px solid #40a944;
+    border-left: 2px solid #40a944;
   }
 }
 
-.sidebarLabelsList li span {
-  vertical-align: bottom;
+.sidebarLabelsList_li span {
   margin-right: 15px;
 }

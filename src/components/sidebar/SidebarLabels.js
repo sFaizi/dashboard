@@ -24,40 +24,47 @@ const SidebarLabels = () => {
         }
       ></button>
       <ul className={classes.sidebarLabelsList}>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">home</span>Dashboard
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">your_trips</span>Prime
           Packs
+          {/* <span>
+            <ul>
+              <li>Enrolled</li>
+              <li>List</li>
+              <li>New Arrivals</li>
+            </ul>
+          </span> */}
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">videocam</span>Courses
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">picture_as_pdf</span>
           eBooks
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">card_membership</span>
           Annual Membership
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">bookmarks</span>
           Bookmarks
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">description</span>Notes
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">help_center</span>
           Questions
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">work_history</span>
           Purchase History
         </li>
-        <li>
+        <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">report</span>Report An
           Issue
         </li>

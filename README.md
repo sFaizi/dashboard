@@ -1,3 +1,9 @@
+# Important
+
+=> Have a internet connection for google fonts and icons
+=> do install node packages (npm install)
+=> get started with npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
