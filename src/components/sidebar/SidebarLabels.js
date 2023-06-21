@@ -30,13 +30,6 @@ const SidebarLabels = () => {
         <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">your_trips</span>Prime
           Packs
-          {/* <span>
-            <ul>
-              <li>Enrolled</li>
-              <li>List</li>
-              <li>New Arrivals</li>
-            </ul>
-          </span> */}
         </li>
         <li className={classes.sidebarLabelsList_li}>
           <span className="material-symbols-outlined">videocam</span>Courses
